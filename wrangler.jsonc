@@ -13,7 +13,7 @@
   "ai": { "binding": "AI" },
   "analytics_engine_datasets": [
     { "binding": "ANALYTICS", "dataset": "Sink-URL-Shortener-Analytics" }
-  ]
+  ],
   "kv_namespaces": [
     { "binding": "KV", "id": "e0187d8cee844171808ee54fc1eb6051" }
   ]
