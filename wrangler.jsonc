@@ -7,24 +7,14 @@
     "directory": "dist/public"
   },
   "compatibility_date": "2025-05-08",
-  "compatibility_flags": [
-    "nodejs_compat"
-  ],
+  "compatibility_flags": [ "nodejs_compat" ],
   "keep_vars": true,
   "upload_source_maps": true,
-  "ai": {
-    "binding": "AI"
-  },
+  "ai": { "binding": "AI" },
   "analytics_engine_datasets": [
-    {
-      "binding": "ANALYTICS",
-      "dataset": "sink"
-    }
-  ],
+    { "binding": "ANALYTICS", "dataset": "Sink-URL-Shortener-Analytics" }
+  ]
   "kv_namespaces": [
-    {
-      "binding": "KV",
-      "id": "e0187d8cee844171808ee54fc1eb6051" // IMPORTANT: Change this to your KV namespace ID
-    }
+    { "binding": "KV", "id": "e0187d8cee844171808ee54fc1eb6051" }
   ]
 }
